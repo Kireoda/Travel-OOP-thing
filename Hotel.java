@@ -1,6 +1,7 @@
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+
 class Hotel {
     private String country;
     private String hotelName;
@@ -10,6 +11,8 @@ class Hotel {
     private LocalDate startBookingDate;
     private LocalDate endBookingDate;
     private LocalDateTime checkInTime;
+
+    // figure out how to input csv file into constructor
 
     //region Constructors
     public Hotel(String country, String hotelName, int beds, double pricePerDay,
@@ -103,6 +106,27 @@ class Hotel {
     }
 //endregion
 
+    public String toString() {
+        return "Hotel{" +
+                "country='" + country + '\'' +
+                ", hotelName='" + hotelName + '\'' +
+                ", beds=" + beds +
+                ", pricePerDay=" + pricePerDay +
+                ", isBooked=" + isBooked +
+                ", startBookingDate=" + startBookingDate +
+                ", endBookingDate=" + endBookingDate +
+                ", checkInTime=" + checkInTime +
+                '}';
+    }
 
-}
+    //region Methods
+    public int calculateDaysBooked() {
+        return (int) this.endBookingDate.toEpochDay() - (int) this.startBookingDate.toEpochDay(); // toEpochDay() was aied
+    }
+
+    public double calculateTotalPrice() {
+        return this.calculateDaysBooked() * this.pricePerDay;
+    }
+
+    //endregion
 }
