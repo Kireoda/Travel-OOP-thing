@@ -1,1 +1,52 @@
+country,hotelName,beds,pricePerDay,isBooked,startBookingDate,endBookingDate,checkInTime
+Spain,Garden Palace 8,3,300.31,False,,,
+Switzerland,Harbor Hotel 32,3,331.25,False,,,
+Portugal,Mountain Lodge 17,3,111.12,True,2025-11-03,2025-11-10,2025-11-03 16:00:00
+Switzerland,Royal Retreat 13,2,353.78,False,,,
+France,Grand Stay 26,1,369.43,False,,,
+Austria,Grand Stay 42,1,257.67,True,2025-12-11,2025-12-19,2025-12-11 14:00:00
+Ireland,Skyline Suites 50,1,321.01,False,,,
+Switzerland,Garden Palace 24,4,279.07,True,2025-11-04,2025-11-07,2025-11-04 15:00:00
+France,Skyline Suites 15,1,147.9,False,,,
+Portugal,Grand Stay 25,3,318.05,True,2025-11-23,2025-11-30,2025-11-23 16:00:00
+Germany,Mountain Lodge 15,5,385.19,False,,,
+France,Skyline Suites 38,3,286.75,False,,,
+Switzerland,Mountain Lodge 11,2,223.92,False,,,
+Netherlands,Ocean View 47,2,345.66,True,2025-12-11,2025-12-12,2025-12-11 13:00:00
+France,Harbor Hotel 50,4,186.26,False,,,
+Italy,Harbor Hotel 30,2,145.77,True,2025-12-15,2025-12-22,2025-12-15 16:00:00
+Austria,Mountain Lodge 33,3,283.31,False,,,
+Italy,Royal Retreat 32,1,151.02,False,,,
+Switzerland,Harbor Hotel 46,2,248.77,True,2025-11-26,2025-12-02,2025-11-26 14:00:00
+France,Grand Stay 24,3,320.71,True,2025-11-14,2025-11-18,2025-11-14 13:00:00
+Ireland,Royal Retreat 42,1,336.46,True,2025-12-27,2026-01-02,2025-12-27 13:00:00
+Netherlands,Skyline Suites 18,5,292.82,True,2025-12-22,2025-12-23,2025-12-22 16:00:00
+Germany,Ocean View 1,2,125.89,False,,,
+Switzerland,City Central 39,2,352.74,False,,,
+France,City Central 14,4,272.31,False,,,
+Greece,Grand Stay 15,1,320.25,True,2025-12-23,2025-12-26,2025-12-23 13:00:00
+Greece,Ocean View 26,1,233.3,False,,,
+Spain,Grand Stay 34,1,90.54,False,,,
+Germany,Blue Lagoon 23,2,241.84,True,2025-12-24,2026-01-02,2025-12-24 13:00:00
+Netherlands,City Central 3,4,313.72,True,2025-11-23,2025-12-02,2025-11-23 14:00:00
+Netherlands,Blue Lagoon 35,1,167.51,True,2025-12-23,2025-12-28,2025-12-23 15:00:00
+Italy,Skyline Suites 6,3,258.8,False,,,
+Ireland,Grand Stay 43,4,88.51,True,2025-12-19,2025-12-29,2025-12-19 16:00:00
+Spain,Grand Stay 50,4,298.2,False,,,
+Portugal,Harbor Hotel 50,4,245.47,True,2025-12-21,2025-12-27,2025-12-21 15:00:00
+Netherlands,Harbor Hotel 16,4,147.51,True,2025-11-20,2025-11-29,2025-11-20 15:00:00
+Germany,Skyline Suites 19,4,277.43,True,2025-12-24,2025-12-25,2025-12-24 13:00:00
+France,City Central 5,2,188.86,True,2025-11-30,2025-12-07,2025-11-30 15:00:00
+France,City Central 28,4,370.23,False,,,
+Portugal,City Central 41,1,184.27,True,2025-12-19,2025-12-24,2025-12-19 15:00:00
+Austria,Royal Retreat 1,1,186.98,True,2025-12-03,2025-12-06,2025-12-03 15:00:00
+Portugal,Sunset Inn 42,5,129.71,True,2025-12-01,2025-12-10,2025-12-01 16:00:00
+Netherlands,Ocean View 43,2,375.01,True,2025-12-11,2025-12-17,2025-12-11 14:00:00
+France,Garden Palace 11,2,219.66,False,,,
+France,Blue Lagoon 15,1,383.01,False,,,
+Austria,Royal Retreat 47,5,282.2,False,,,
+Portugal,Mountain Lodge 40,3,359.32,True,2025-11-27,2025-12-02,2025-11-27 16:00:00
+Spain,Mountain Lodge 4,1,384.8,False,,,
+Portugal,Garden Palace 11,3,369.06,False,,,
+Netherlands,Mountain Lodge 4,4,291.1,False,,,
 

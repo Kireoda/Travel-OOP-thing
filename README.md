@@ -12,6 +12,10 @@ LocalDate - Start Booking date
 LocalDate - End Booking date
 LocalDateTime - Check In time
 
+teachers notes
+- reservation hotel
+- refactor csv file into arrival, departure and how many total beds in the hotels
+
 Start with a menu of countries.
 The user selects a country.
 Display a list of sorting options for hotels (e.g., sort by rating, price, or favourites).
