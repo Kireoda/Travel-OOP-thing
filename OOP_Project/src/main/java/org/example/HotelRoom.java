@@ -1,9 +1,12 @@
 package org.example;
 
+import.io.File;
+import java.io.FileNotFoundException;
+import java.util.*;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
-public class HotelRoom {
+public class HotelRoom implements Comparable<HotelRoom>{
     private String hotelName;
     private String roomNumber; // Kept as String
     private String roomType;
@@ -119,8 +122,7 @@ public class HotelRoom {
     }
     //endregion
 
-    //region Implemented Methods
-
+    //region Methods
     /**
      * Marks room as booked and updates next available date.
      * @return the total booking price.
@@ -232,6 +234,14 @@ public class HotelRoom {
         System.err.println("Sorting rooms should be done externally on a List of rooms.");
     }
 
+    // Comparator ordering by price then hotelName
+    @Override
+    public int compareTo(HotelRoom other) {
+        int cmp = Double.compare(this.pricePerNight, other.pricePerNight);
+        if (cmp != 0) return cmp;
+        return this.hotelName.compareToIgnoreCase(other.hotelName);
+    }
+
     @Override
     public String toString() {
         return "HotelRoom{" +
@@ -245,5 +255,27 @@ public class HotelRoom {
                 ", nextAvailableDate=" + nextAvailableDate +
                 ", hotelRating=" + hotelRating +
                 '}';
+    }
+    //endregion
+
+    // Comparator for rating (descending)
+    public static class ByRatingComparator implements Comparator<HotelRoom> {
+        @Override
+        public int compare(HotelRoom a, HotelRoom b) {
+            int cmp = Integer.compare(b.getHotelRating(), a.getHotelRating()); // higher rating first
+            if (cmp != 0) return cmp;
+            return Double.compare(a.getPricePerNight(), b.getPricePerNight()); // if tie-breaker, cheaper first
+        }
+    }
+
+    // Comparator for maintenance need
+    public static class MaintenanceComparator implements Comparator<HotelRoom> {
+        @Override
+        public int compare(HotelRoom a, HotelRoom b) {
+            // Rooms that need maintenance come first
+            if (a.needMaintenance() && !b.needMaintenance()) return -1;
+            if (!a.needMaintenance() && b.needMaintenance()) return 1;
+            return 0; // both same maintenance status
+        }
     }
 }

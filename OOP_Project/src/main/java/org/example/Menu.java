@@ -8,7 +8,7 @@ class Menu {
         System.out.println("Welcome to the Hotel Booking System. Please select a Country:");
         int selected = scanner.nextInt();
     }
-//Menu of countries.
+//Menu of hotels
 
 //Menu of sorting options for hotels (e.g., sort by rating, price, or favourites).
 
