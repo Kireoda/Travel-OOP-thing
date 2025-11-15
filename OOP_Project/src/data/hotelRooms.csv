@@ -1,0 +1,10 @@
+GrandHotel,101,Single,1,75.50,false,2025-05-01,2025-05-02,4
+GrandHotel,102,Double,2,120.00,false,2025-04-15,2025-04-16,5
+SeaViewInn,201,Suite,4,250.00,false,2024-11-01,2024-11-02,5
+SeaViewInn,202,Double,2,130.00,true,2025-01-01,2025-01-05,4
+MountainLodge,301,Single,1,65.00,false,2025-06-01,2025-06-02,3
+MountainLodge,302,Double,2,110.00,false,2025-05-20,2025-05-21,4
+CityCenter,401,Suite,3,220.00,true,2024-12-15,2024-12-16,5
+CityCenter,402,Double,2,140.00,false,2025-03-10,2025-03-11,4
+BudgetStay,501,Single,1,50.00,false,2025-07-01,2025-07-02,2
+BudgetStay,502,Double,2,90.00,false,2025-06-15,2025-06-16,3
